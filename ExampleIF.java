@@ -17,6 +17,10 @@ public class ExampleIF {
             System.out.println("X is equal to Y");
         }
 
-        if (x > y)
+        if (x > y) {
+            System.out.println("X is greater than Y");
+
+
+        }
     }
 }
