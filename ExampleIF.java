@@ -10,17 +10,18 @@ public class ExampleIF {
         int y = 20;
 
         if (x < y) {
+
             System.out.println("X is less than Y");
-        }
 
-        if (x == y) {
+            }else if (x == y) {
+
             System.out.println("X is equal to Y");
+
+            }else if (x > y) {
+
+                    System.out.println("X is greater than Y");
+
+                }
+            }
         }
 
-        if (x > y) {
-            System.out.println("X is greater than Y");
-
-
-        }
-    }
-}
