@@ -13,6 +13,7 @@ public class ExampleWhile {
 
             System.out.println("x = " + x);
 
+            // Other ways to do incrementation are: x = x + 1, or x += 1.
             x++;
         }
     }
